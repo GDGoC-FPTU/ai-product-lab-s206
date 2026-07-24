@@ -79,18 +79,22 @@ jobs:
     - name: Prototype Script
       id: prototype-script
       uses: classroom-resources/autograding-command-grader@v1
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       with:
         test-name: Prototype Script
-        setup-command: ''
+        setup-command: pip install -r requirements.txt
         command: python autograder/autograder.py --check-code-4
         timeout: 10
         max-score: 10
     - name: Safety Verification
       id: safety-verification
       uses: classroom-resources/autograding-command-grader@v1
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       with:
         test-name: Safety Verification
-        setup-command: ''
+        setup-command: pip install -r requirements.txt
         command: python autograder/autograder.py --check-code-5
         timeout: 10
         max-score: 10
