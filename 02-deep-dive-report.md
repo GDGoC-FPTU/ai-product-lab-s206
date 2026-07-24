@@ -1,9 +1,8 @@
 # Phase 3 & 5 — DEEP-DIVE & EVALUATION REPORT
 
-**Tên nhóm:** [Điền tên nhóm của bạn]
-**Thành viên:** 
-1. [Họ và tên 1] - [MSSV 1]
-2. [Họ và tên 2] - [MSSV 2]
+**Tên nhóm:** S206  
+**Thành viên nhóm:**  
+1. Nguyễn Anh Quân — 2A202601251
 
 ---
 
