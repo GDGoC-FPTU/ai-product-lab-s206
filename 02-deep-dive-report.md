@@ -2,8 +2,8 @@
 
 ## Thông tin nhóm
 
-- **Tên nhóm:** `[ĐIỀN TÊN NHÓM]`
-- **Thành viên 1:** `[HỌ TÊN — MSSV]`
+- **Tên nhóm:** `s206`
+- **Thành viên 1:** `Đỗ Đức Phong - 2A202601207`
 - **Thành viên 2:** `[HỌ TÊN — MSSV]`
 - **Thành viên 3:** `[HỌ TÊN — MSSV]`
 - **Thành viên 4:** `[HỌ TÊN — MSSV]`
@@ -26,13 +26,13 @@
 
 ## Problem Statement — 6 Fields
 
-| Field | Nội dung |
-|---|---|
-| Actor / Operator | Tài xế Xanh SM, nhân viên tổng đài và điều phối viên vận hành. |
-| Current Workflow | Nhận yêu cầu qua điện thoại, ghi nhận dữ liệu, tra cứu thủ công, đánh giá phương án rồi gọi lại tài xế. |
-| Bottleneck | Tra cứu và đánh giá phương án mất khoảng 7 phút, dễ bỏ sót ràng buộc an toàn khi nhiều yêu cầu đồng thời. |
-| Business Impact | SLA phản hồi kéo dài, xe ngừng phục vụ lâu hơn và tăng rủi ro xe hết pin giữa đường. |
-| Success Metric | 90% yêu cầu có draft dưới 30 giây; xử lý end-to-end dưới 5 phút; 100% ca pin dưới 5% không gợi ý trạm xa hơn 5 km. |
+| Field                | Nội dung                                                                                                                                               |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Actor / Operator     | Tài xế Xanh SM, nhân viên tổng đài và điều phối viên vận hành.                                                                                         |
+| Current Workflow     | Nhận yêu cầu qua điện thoại, ghi nhận dữ liệu, tra cứu thủ công, đánh giá phương án rồi gọi lại tài xế.                                                |
+| Bottleneck           | Tra cứu và đánh giá phương án mất khoảng 7 phút, dễ bỏ sót ràng buộc an toàn khi nhiều yêu cầu đồng thời.                                              |
+| Business Impact      | SLA phản hồi kéo dài, xe ngừng phục vụ lâu hơn và tăng rủi ro xe hết pin giữa đường.                                                                   |
+| Success Metric       | 90% yêu cầu có draft dưới 30 giây; xử lý end-to-end dưới 5 phút; 100% ca pin dưới 5% không gợi ý trạm xa hơn 5 km.                                     |
 | Operational Boundary | AI chỉ tạo `[DRAFT_ONLY]`; không tự gửi tin, không tự điều xe; pin dưới 5% phải đề xuất `dispatch_mobile_charger`; điều phối viên duyệt mọi hành động. |
 
 ## AI Fit
