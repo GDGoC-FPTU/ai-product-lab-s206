@@ -7,6 +7,7 @@
 3. Phạm Văn Thắng - 2A202601359
 4. Trần Bảo Ninh - 2A202601595
 5. Đoàn Ngọc Chung - 2A202601869
+6. Đỗ Đức Phong - 2A202601207
 
 ---
 
